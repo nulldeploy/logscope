@@ -1,0 +1,11 @@
+[project]
+name = "logscope"
+version = "0.1.0"
+dependencies = ["rich"]
+
+[project.scripts]
+logscope = "logscope:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
