@@ -1,0 +1,11 @@
+---
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: logscope
+    restart: unless-stopped
+    ports:
+      - '5000:5000'
