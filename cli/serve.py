@@ -12,5 +12,5 @@ def health():
 
 def run(args) -> None:
     logger.info('Starting Flask server...')
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
     logger.info('Flask server stopped.')
