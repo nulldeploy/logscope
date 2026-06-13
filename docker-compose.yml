@@ -11,8 +11,8 @@ services:
     ports:
       - '5000:5000'
     command: ['python', 'logscope.py', 'serve']
-    networks:
-      - logscope-net
+    # networks:
+    #   - logscope-net
 
   # nginx:
   #   image: nginx:latest
