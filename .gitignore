@@ -1,8 +1,0 @@
-.dockerignore
-__pycache__
-.pyc
-.pyo
-.env
-venv/
-app.log
-*.service
