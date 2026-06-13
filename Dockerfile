@@ -22,4 +22,4 @@ COPY --chown=appuser:appuser . .
 USER appuser
 
 EXPOSE 5000
-CMD ["python", "logscope", "serve"]
+CMD ["python", "logscope.py", "serve"]
