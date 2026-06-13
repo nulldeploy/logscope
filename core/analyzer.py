@@ -2,7 +2,6 @@
 from core.parser import parser_output
 from collections import Counter
 from pathlib import Path
-from dataclasses import dataclass
 import logging
 
 logger = logging.getLogger(__name__)

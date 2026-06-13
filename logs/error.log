@@ -9,3 +9,5 @@
 2026/06/13 12:12:20 [emerg] 1#1: no "events" section in configuration
 2026/06/13 12:12:46 [emerg] 1#1: no "events" section in configuration
 2026/06/13 12:13:37 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:1
+2026/06/13 12:14:38 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:1
+2026/06/13 12:15:38 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:1
