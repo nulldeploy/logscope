@@ -1,5 +1,4 @@
-.dockerignore
-app.log
+*.log
 venv/
 __pycache__
 .pyc
