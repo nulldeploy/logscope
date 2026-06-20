@@ -172,18 +172,3 @@ CMD ["python", "logscope.py", "serve"]
 ```
 
 For full server provisioning — nginx, SSL via Let's Encrypt, systemd service management — see the companion [`logscope-infra`](https://github.com/nulldeploy/logscope-infra) repository, which automates the entire setup with Ansible.
-
----
-
-## Roadmap
-
-- [ ] JSON-formatted log input support
-- [ ] Configurable output templates
-- [ ] Export `stats` output to CSV/JSON
-- [ ] Prometheus metrics endpoint alongside `/health`
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
